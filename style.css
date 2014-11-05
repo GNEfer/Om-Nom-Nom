@@ -11,10 +11,16 @@ header{
 	color: white;
 	text-align: center;
 }
+h1{
+	font-family: Arial;
+	font-size: 3.0em; 
+}
 h2{
 	width: 100%;
-	padding: 40px 0;
+	padding: 0px 0;
 	color: black;
+	font-family: Helvetica;
+	font-size: 32px;
 }
 a{
 	text-decoration: none;
@@ -32,11 +38,6 @@ nav ul{
 nav ul li{
 	display: inline-block;
 	padding: 20px;
-}
-nav ul li a,visited{
-	color: #ccc;
-	display: block;
-	text-decoration: none;
 }
 nav ul li:hover{
 	background-color: #b51616;
