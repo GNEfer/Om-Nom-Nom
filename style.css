@@ -13,7 +13,7 @@ header{
 }
 h1{
 	font-family: Arial;
-	font-size: 3.0em; 
+	font-size: 3.5em; 
 }
 h2{
 	width: 100%;
@@ -25,6 +25,9 @@ h2{
 a{
 	text-decoration: none;
 	color: inherit;
+}
+section img{
+	width: 75%;
 }
 nav ul{
 	background-color: #ff3232;
@@ -43,12 +46,17 @@ nav ul li:hover{
 	background-color: #b51616;
 }
 nav ul li:hover ul{
-	display: inline-block;
-	margin-left: -58px;
+	display: block;
+	margin-left: -20px;
 	margin-top: 20px;
 	position: absolute;
 	background-color: #b51616;
 	text-align: left;
+}
+nav ul li img{
+	width: 10px;
+	vertical-align: middle;
+	padding-left: 10px;
 }
 nav ul li ul li:hover{
 	background-color: #da1e1e;
