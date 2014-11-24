@@ -22,12 +22,24 @@ h2{
 	font-family: Helvetica;
 	font-size: 32px;
 }
+section h3{
+	width: 100%;
+	padding: 0px 0;
+	color: black;
+	font-size: 24px;
+}
 a{
 	text-decoration: none;
 	color: inherit;
 }
 section img{
-	width: 75%;
+	width: 100%;
+}
+section p img{
+	width: 80%;
+	border-style: solid;
+	border-width: thin;
+	color: black;
 }
 nav ul{
 	background-color: #ff3232;
