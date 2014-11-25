@@ -41,6 +41,20 @@ section p img{
 	border-width: thin;
 	color: black;
 }
+section ul{
+	background-color: #d21010;
+	overflow: hidden;
+	color: white;
+	text-align: center;
+	box-sizing: border-box;
+}
+section ul li{
+	display: block;
+	padding: 20px;
+}
+section ul li a:link{
+	width: 50%;
+}
 nav ul{
 	background-color: #ff3232;
 	overflow: hidden;
@@ -87,6 +101,74 @@ section{
 	padding: 40px;
 	width: 75%;
 	margin: 0 auto;
+}
+section form{
+		margin-left: auto;
+		margin-right: auto;
+
+		max-width: 500px;
+		background: white;
+		padding: 20px 30px 20px 30px;
+		font: 12px, Helvetica, Arial, sans-serif;
+		color: black;
+		text-shadow: 1px 1px 1px white;
+}
+section form h2{
+	font: Helvitica, Arial, sans-serif;
+	font-size: 2em;
+	padding: 0px 0px 10px 40px;
+	display: block;
+	margin: -10px -30px 30px -30px;
+	color: black;
+}
+section form h2 span{
+	display: block;
+	font-size: 11px;
+}
+section form label{
+	display: block;
+	margin: 0px 0px 5px;
+}
+section form label span{
+	float: left;
+	width: 20%;
+	text-align: right;
+	padding-right: 10px;
+	margin-top: 10px;
+	color: black;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+}
+section form input[type="text"], section form input[type="email"], section form textarea{
+	border: 1px solid black;
+	color: black;
+	height: 20px;
+	line-height: 15px;
+	margin-bottom: 16px;
+	margin-right: 6px;
+	margin-top: 2px;
+	outline: 0 none;
+	padding: 5px 0px 5px 5px;
+	width: 70%;
+	border-radius: 4px;
+	box-shadow: insert 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+section form textarea{
+	height: 100px;
+	padding: 5px 0px 0px 5px;
+	width: 70%;
+}
+section form.button{
+	background: white;
+	border: 1px solid black;
+	padding: 20px 45px 20px 45px;
+	color: black;
+	border-radius: 4px;
+}
+section form.button:hover{
+	color: black;
+	background-color: #ff3232;
+	border-color: black;
 }
 @media screen and (max-width: 580px){
 	nav ul li{
