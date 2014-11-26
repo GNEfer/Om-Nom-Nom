@@ -59,7 +59,7 @@ section ul{
 	overflow: hidden;
 	color: white;
 	text-align: center;
-	position: center;
+	margin-left: 32.5%;
 	box-sizing: border-box;
 	tansition: max-height 0.4s;
 }
@@ -67,7 +67,7 @@ section ul li{
 	display: block;
 	margin-bottom: 10px;
 	padding: 20px;
-	width: 30%;
+	width: 35%;
 	background-color: #d21010;
 }
 section ul li:hover{
