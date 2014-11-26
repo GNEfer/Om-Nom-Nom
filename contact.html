@@ -30,27 +30,27 @@
 		<h4 class="leftHeader">
 		<a href="index.html">Home</a> / Contact
 		</h4>
-		<form action="MAILTO:omnomnom.asia@gmail.com" method="post" class="STYLE-NAME" enctype="text/plain">
-      		<h2>Contact Form
+		<form action="MAILTO:omnomnom.asia@gmail.com" method="post" name="contactform">
+      		<h2>Contact Us
         		<span>Please Fill all the texts in the fields</span>
       		</h2>
-      		<label>
-        		<span>Your Name :</span>
+      		<label for="your_name">
+        		<span>Your Name* :</span>
         		<input id="name" type="text" name="name" placeholder="Your Full Name" />
       		</label>
 
-      		<label>
-        		<span>Your Email :</span>
+      		<label for="email">
+        		<span>Your Email* :</span>
         		<input id="email" type="email" name="email" placeholder="Valid Email Address (example@domain.com)" />
       		</label>
 
-     		<label>
-        		<span>Message :</span>
-        		<textarea id="message" name="message" placeholder="Your Message"></textarea>
+     		<label for="message">
+        		<span>Message* :</span>
+        		<textarea id="message" name="message" maxlength="1000" placeholder="Your Message"></textarea>
       		</label>
       		<label>
         		<span>&nbsp;</span>
-        		<input type="button" class="button" value="Send" />
+        		<a href="pop_up.html" target="_blank"><input type="button" name="submit" value="Submit" /></a>
       		</label>
     	</form>
 	</section>
