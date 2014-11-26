@@ -13,15 +13,21 @@ header{
 }
 h1{
 	font-family: Arial;
-	font-size: 3.5em; 
+	font-size: 4em; 
 }
 h2{
 	width: 100%;
-	padding: 0px 0;
+	padding: 0px;
 	color: black;
 	font-family: Helvetica;
 	font-size: 50px;
 	text-align: center;	
+}
+h5{
+	font-size: 16px;
+}
+span p{
+	text-indent: 50px;
 }
 section h3{
 	width: 100%;
@@ -113,7 +119,6 @@ nav ul ul li{
 	display: block;
 }
 section{
-	line-height: 1.5em;
 	font-size: 0.9em;
 	padding: 40px;
 	width: 75%;
