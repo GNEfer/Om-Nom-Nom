@@ -61,7 +61,6 @@ section ul{
 	text-align: center;
 	margin-left: 32.5%;
 	box-sizing: border-box;
-	tansition: max-height 0.4s;
 }
 section ul li{
 	display: block;
@@ -138,7 +137,7 @@ margin-right: auto;
 max-width: 500px;
 background: white;
 padding: 20px 30px 20px 30px;
-ont: 12px, Helvetica, Arial, sans-serif;
+font: 12px, Helvetica, Arial, sans-serif;
 color: black;
 }
 section form h2{
